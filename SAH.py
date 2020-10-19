@@ -13,7 +13,7 @@ url = 'https://kawalpemilu.org/#pilpres:0'
 url2 = 'https://www.bps.go.id/dynamictable/2017/05/04/1241/indeks-demokrasi-indonesia-idi-menurut-provinsi-2009-2017.html'
 
 # The path to where you have your chrome webdriver stored:
-webdriver_path = 'E:\PyCharm\chromedriver_win32/chromedriver.exe'
+webdriver_path = 'D:\PyCharm\chromedriver_win32/chromedriver.exe'
 
 # Add arguments telling Selenium to not actually open a window
 chrome_options = Options()
@@ -121,3 +121,6 @@ plt.xticks(rotation=90,ha='right')
 plt.legend(loc='best')
 
 plt.show()
+
+# Hacktoberfest2020
+# Support open source and pick a limited edition T-shirt or plant a tree.
