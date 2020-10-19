@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import main as func
 import pandas as pd
 
-url1 = 'https://www.bps.go.id/dynamictable/2017/05/04/1243/indeks-kebahagiaan-menurut-provinsi-2014-2017.html'
-soup1 = func.getData(url1)
+urlbps = 'https://www.bps.go.id/dynamictable/2017/05/04/1243/indeks-kebahagiaan-menurut-provinsi-2014-2017.html'
+soup1 = func.getData(urlbps)
 
 # find results within table
 result_wilayah = soup1.find('table', attrs={'id': 'tableLeftBottom'})
@@ -88,3 +88,5 @@ plt.gca().set_ylim([df['value'].min()-50,df['value'].max()+50])
 plt.xticks(rotation=30,ha='right')
 plt.legend(loc='upper right')
 plt.show()
+
+# Hacktoberfest2020
